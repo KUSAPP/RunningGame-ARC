@@ -1,4 +1,4 @@
-PrototypeAPP
+RunningGame (Auto Reference Counting)
 ============
 
 cocos2d game

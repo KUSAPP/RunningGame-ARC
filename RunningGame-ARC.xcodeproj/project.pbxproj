@@ -29,11 +29,7 @@
 		D81FEF0916A14D6B0075446E /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D81FEF0816A14D6B0075446E /* iTunesArtwork */; };
 		D81FF07716A14D6E0075446E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF07616A14D6E0075446E /* main.m */; };
 		D81FF07A16A14D6E0075446E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF07916A14D6E0075446E /* AppDelegate.m */; };
-		D81FF07D16A14D6E0075446E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF07C16A14D6E0075446E /* HelloWorldLayer.m */; };
 		D81FF08016A14D6E0075446E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF07F16A14D6E0075446E /* IntroLayer.m */; };
-		D81FF08916A14D930075446E /* AnimBear.plist in Resources */ = {isa = PBXBuildFile; fileRef = D81FF08616A14D930075446E /* AnimBear.plist */; };
-		D81FF08A16A14D930075446E /* AnimBear.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF08716A14D930075446E /* AnimBear.png */; };
-		D81FF08B16A14D930075446E /* cave floor.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF08816A14D930075446E /* cave floor.png */; };
 		D81FF09116A14E990075446E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81FEEEB16A14D6A0075446E /* Foundation.framework */; };
 		D81FF09616A14E990075446E /* cocos2d_library.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D81FF09516A14E990075446E /* cocos2d_library.h */; };
 		D81FF09816A14E990075446E /* cocos2d_library.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF09716A14E990075446E /* cocos2d_library.m */; };
@@ -148,6 +144,18 @@
 		D81FF20816A1504D0075446E /* LICENSE_cocos2d.txt in Resources */ = {isa = PBXBuildFile; fileRef = D81FF19A16A1504D0075446E /* LICENSE_cocos2d.txt */; };
 		D81FF20916A1504D0075446E /* LICENSE_CocosDenshion.txt in Resources */ = {isa = PBXBuildFile; fileRef = D81FF19B16A1504D0075446E /* LICENSE_CocosDenshion.txt */; };
 		D81FF20A16A1504D0075446E /* LICENSE_Kazmath.txt in Resources */ = {isa = PBXBuildFile; fileRef = D81FF19C16A1504D0075446E /* LICENSE_Kazmath.txt */; };
+		D81FF21D16A155CE0075446E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF21C16A155CE0075446E /* Player.m */; };
+		D81FF22016A155E80075446E /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF21F16A155E80075446E /* Obstacle.m */; };
+		D81FF22316A1560B0075446E /* Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF22216A1560B0075446E /* Magic.m */; };
+		D81FF22716A196280075446E /* AnimBear.plist in Resources */ = {isa = PBXBuildFile; fileRef = D81FF22416A196280075446E /* AnimBear.plist */; };
+		D81FF22816A196280075446E /* AnimBear.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF22516A196280075446E /* AnimBear.png */; };
+		D81FF22916A196280075446E /* cave floor.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF22616A196280075446E /* cave floor.png */; };
+		D81FF22C16A198960075446E /* MainLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF22B16A198950075446E /* MainLayer.m */; };
+		D81FF23216A19C980075446E /* ActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF23116A19C980075446E /* ActionController.m */; };
+		D81FF23816A19CF90075446E /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF23716A19CF90075446E /* Menu.m */; };
+		D81FF23F16A19EF00075446E /* blitting.plist in Resources */ = {isa = PBXBuildFile; fileRef = D81FF23D16A19EF00075446E /* blitting.plist */; };
+		D81FF24016A19EF00075446E /* blitting.png in Resources */ = {isa = PBXBuildFile; fileRef = D81FF23E16A19EF00075446E /* blitting.png */; };
+		D81FF24316A1A20B0075446E /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = D81FF24216A1A20A0075446E /* Background.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,13 +198,8 @@
 		D81FF07616A14D6E0075446E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D81FF07816A14D6E0075446E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D81FF07916A14D6E0075446E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D81FF07B16A14D6E0075446E /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		D81FF07C16A14D6E0075446E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		D81FF07E16A14D6E0075446E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		D81FF07F16A14D6E0075446E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		D81FF08616A14D930075446E /* AnimBear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnimBear.plist; sourceTree = "<group>"; };
-		D81FF08716A14D930075446E /* AnimBear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnimBear.png; sourceTree = "<group>"; };
-		D81FF08816A14D930075446E /* cave floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cave floor.png"; sourceTree = "<group>"; };
 		D81FF09016A14E990075446E /* libcocos2d-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81FF09416A14E990075446E /* cocos2d-library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocos2d-library-Prefix.pch"; sourceTree = "<group>"; };
 		D81FF09516A14E990075446E /* cocos2d_library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocos2d_library.h; sourceTree = "<group>"; };
@@ -444,6 +447,25 @@
 		D81FF19A16A1504D0075446E /* LICENSE_cocos2d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_cocos2d.txt; sourceTree = "<group>"; };
 		D81FF19B16A1504D0075446E /* LICENSE_CocosDenshion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_CocosDenshion.txt; sourceTree = "<group>"; };
 		D81FF19C16A1504D0075446E /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_Kazmath.txt; sourceTree = "<group>"; };
+		D81FF21B16A155CE0075446E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D81FF21C16A155CE0075446E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D81FF21E16A155E80075446E /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obstacle.h; sourceTree = "<group>"; };
+		D81FF21F16A155E80075446E /* Obstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Obstacle.m; sourceTree = "<group>"; };
+		D81FF22116A1560B0075446E /* Magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic.h; sourceTree = "<group>"; };
+		D81FF22216A1560B0075446E /* Magic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic.m; sourceTree = "<group>"; };
+		D81FF22416A196280075446E /* AnimBear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AnimBear.plist; path = Resources/AnimBear.plist; sourceTree = "<group>"; };
+		D81FF22516A196280075446E /* AnimBear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AnimBear.png; path = Resources/AnimBear.png; sourceTree = "<group>"; };
+		D81FF22616A196280075446E /* cave floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cave floor.png"; path = "Resources/cave floor.png"; sourceTree = "<group>"; };
+		D81FF22A16A198950075446E /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
+		D81FF22B16A198950075446E /* MainLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLayer.m; sourceTree = "<group>"; };
+		D81FF23016A19C980075446E /* ActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionController.h; sourceTree = "<group>"; };
+		D81FF23116A19C980075446E /* ActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionController.m; sourceTree = "<group>"; };
+		D81FF23616A19CF90075446E /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		D81FF23716A19CF90075446E /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		D81FF23D16A19EF00075446E /* blitting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = blitting.plist; path = Resources/blitting.plist; sourceTree = "<group>"; };
+		D81FF23E16A19EF00075446E /* blitting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blitting.png; path = Resources/blitting.png; sourceTree = "<group>"; };
+		D81FF24116A1A20A0075446E /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		D81FF24216A1A20A0075446E /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,10 +500,10 @@
 		D81FEED016A14D6A0075446E = {
 			isa = PBXGroup;
 			children = (
-				D81FEEF116A14D6A0075446E /* RunningGame-ARC */,
 				D81FF09216A14E990075446E /* cocos2d-library */,
 				D81FEEDE16A14D6A0075446E /* Frameworks */,
 				D81FEEDC16A14D6A0075446E /* Products */,
+				D81FEEF116A14D6A0075446E /* RunningGame-ARC */,
 			);
 			sourceTree = "<group>";
 		};
@@ -513,13 +535,15 @@
 		D81FEEF116A14D6A0075446E /* RunningGame-ARC */ = {
 			isa = PBXGroup;
 			children = (
-				D81FF09D16A1504D0075446E /* libs */,
 				D81FF07816A14D6E0075446E /* AppDelegate.h */,
 				D81FF07916A14D6E0075446E /* AppDelegate.m */,
-				D81FF07B16A14D6E0075446E /* HelloWorldLayer.h */,
-				D81FF07C16A14D6E0075446E /* HelloWorldLayer.m */,
+				D81FF22A16A198950075446E /* MainLayer.h */,
+				D81FF22B16A198950075446E /* MainLayer.m */,
 				D81FF07E16A14D6E0075446E /* IntroLayer.h */,
 				D81FF07F16A14D6E0075446E /* IntroLayer.m */,
+				D81FF21916A155790075446E /* GameLayer */,
+				D81FF21A16A155820075446E /* InputLayer */,
+				D81FF09D16A1504D0075446E /* libs */,
 				D81FEEF216A14D6A0075446E /* Resources */,
 				D81FF07416A14D6E0075446E /* Supporting Files */,
 			);
@@ -529,9 +553,11 @@
 		D81FEEF216A14D6A0075446E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D81FF08616A14D930075446E /* AnimBear.plist */,
-				D81FF08716A14D930075446E /* AnimBear.png */,
-				D81FF08816A14D930075446E /* cave floor.png */,
+				D81FF23D16A19EF00075446E /* blitting.plist */,
+				D81FF23E16A19EF00075446E /* blitting.png */,
+				D81FF22416A196280075446E /* AnimBear.plist */,
+				D81FF22516A196280075446E /* AnimBear.png */,
+				D81FF22616A196280075446E /* cave floor.png */,
 				D81FEEF316A14D6A0075446E /* Default.png */,
 				D81FEEF516A14D6B0075446E /* Default@2x.png */,
 				D81FEEF716A14D6B0075446E /* Default-568h@2x.png */,
@@ -921,6 +947,32 @@
 			path = GL;
 			sourceTree = "<group>";
 		};
+		D81FF21916A155790075446E /* GameLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D81FF21B16A155CE0075446E /* Player.h */,
+				D81FF21C16A155CE0075446E /* Player.m */,
+				D81FF21E16A155E80075446E /* Obstacle.h */,
+				D81FF21F16A155E80075446E /* Obstacle.m */,
+				D81FF22116A1560B0075446E /* Magic.h */,
+				D81FF22216A1560B0075446E /* Magic.m */,
+				D81FF24116A1A20A0075446E /* Background.h */,
+				D81FF24216A1A20A0075446E /* Background.m */,
+			);
+			name = GameLayer;
+			sourceTree = "<group>";
+		};
+		D81FF21A16A155820075446E /* InputLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D81FF23016A19C980075446E /* ActionController.h */,
+				D81FF23116A19C980075446E /* ActionController.m */,
+				D81FF23616A19CF90075446E /* Menu.h */,
+				D81FF23716A19CF90075446E /* Menu.m */,
+			);
+			name = InputLayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1001,14 +1053,16 @@
 				D81FEF0416A14D6B0075446E /* Icon.png in Resources */,
 				D81FEF0616A14D6B0075446E /* Icon@2x.png in Resources */,
 				D81FEF0916A14D6B0075446E /* iTunesArtwork in Resources */,
-				D81FF08916A14D930075446E /* AnimBear.plist in Resources */,
-				D81FF08A16A14D930075446E /* AnimBear.png in Resources */,
-				D81FF08B16A14D930075446E /* cave floor.png in Resources */,
 				D81FF1FA16A1504D0075446E /* ChangeLog in Resources */,
 				D81FF1FB16A1504D0075446E /* CMakeLists.txt in Resources */,
 				D81FF20816A1504D0075446E /* LICENSE_cocos2d.txt in Resources */,
 				D81FF20916A1504D0075446E /* LICENSE_CocosDenshion.txt in Resources */,
 				D81FF20A16A1504D0075446E /* LICENSE_Kazmath.txt in Resources */,
+				D81FF22716A196280075446E /* AnimBear.plist in Resources */,
+				D81FF22816A196280075446E /* AnimBear.png in Resources */,
+				D81FF22916A196280075446E /* cave floor.png in Resources */,
+				D81FF23F16A19EF00075446E /* blitting.plist in Resources */,
+				D81FF24016A19EF00075446E /* blitting.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1021,7 +1075,6 @@
 			files = (
 				D81FF07716A14D6E0075446E /* main.m in Sources */,
 				D81FF07A16A14D6E0075446E /* AppDelegate.m in Sources */,
-				D81FF07D16A14D6E0075446E /* HelloWorldLayer.m in Sources */,
 				D81FF08016A14D6E0075446E /* IntroLayer.m in Sources */,
 				D81FF19D16A1504D0075446E /* CCAction.m in Sources */,
 				D81FF19E16A1504D0075446E /* CCActionCamera.m in Sources */,
@@ -1128,6 +1181,13 @@
 				D81FF20516A1504D0075446E /* vec2.c in Sources */,
 				D81FF20616A1504D0075446E /* vec3.c in Sources */,
 				D81FF20716A1504D0075446E /* vec4.c in Sources */,
+				D81FF21D16A155CE0075446E /* Player.m in Sources */,
+				D81FF22016A155E80075446E /* Obstacle.m in Sources */,
+				D81FF22316A1560B0075446E /* Magic.m in Sources */,
+				D81FF22C16A198960075446E /* MainLayer.m in Sources */,
+				D81FF23216A19C980075446E /* ActionController.m in Sources */,
+				D81FF23816A19CF90075446E /* Menu.m in Sources */,
+				D81FF24316A1A20B0075446E /* Background.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1294,6 +1354,7 @@
 				D81FF08516A14D6E0075446E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D81FF09916A14E990075446E /* Build configuration list for PBXNativeTarget "cocos2d-library" */ = {
 			isa = XCConfigurationList;
@@ -1302,6 +1363,7 @@
 				D81FF09B16A14E990075446E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
