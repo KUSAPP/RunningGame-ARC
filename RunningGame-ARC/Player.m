@@ -8,7 +8,6 @@
 
 #import "Player.h"
 
-
 @implementation Player
 
 @synthesize moveAction = _moveAction;
@@ -22,7 +21,7 @@
 	if( (self=[super init]) ) {
 		[[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"blitting.plist"];
         CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"blitting.png"];
-        
+        self.isTouchEnabled = YES;
         [self addChild:spriteSheet];
         
         NSMutableArray *walkAnimFrames = [NSMutableArray array];
@@ -46,5 +45,7 @@
     }
 	return self;
 }
+
+
 
 @end

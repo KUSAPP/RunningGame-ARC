@@ -20,12 +20,30 @@
 	Player *player = [Player node];
     Background *bg = [Background node];
 	
+    
 	// add layer as a child to scene
 	[scene addChild: player];
     [scene addChild: bg];
 	
 	// return the scene
 	return scene;
+}
+
+-(void)swipeLeft:(UIGestureRecognizer*)recognizer
+{
+    NSLog(@"Recognised");
+}
+
+-(void) setupGestureRecognizers
+{
+    UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeLeft:)];
+    
+    [swipeLeft setDirection:UISwipeGestureRecognizerDirectionLeft];
+    
+    [swipeLeft setNumberOfTouchesRequired:1];
+    
+    [[[CCDirector sharedDirector] openGLView] addGestureRecognizer:swipeLeft];
+    
 }
 
 @end
